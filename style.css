@@ -14,4 +14,10 @@ h1 {color:gray;
     border-radius: 25px;
 }
 
+.highlight{
+    color:rgb(255, 174, 0);
+    font-weight: bold;
+
+}
+
 

@@ -7,9 +7,9 @@ function compute(){
     interest = (principal * years * rate)/100;
 
     //Construct the html to be replaced for result
-    result = "If you deposit <strong>"+ principal + "</strong><br>" +
-    "at an interest rate of <strong>" + rate + "%. </strong> <br>"+
-    "You will receive an amount of <strong>"+interest+"</strong>,<br>in the year <strong>"+ future_year+"</strong>";
+    result = "If you deposit <span class=highlight>"+ principal + "</span><br>" +
+    "at an interest rate of <span class=highlight>" + rate + "</span>%. <br>"+
+    "You will receive an amount of <span class=highlight>"+interest+"</span>,<br>in the year <span class=highlight>"+ future_year+"</span>";
     
     //set the innerHTML of result 
     document.getElementById("result").innerHTML=result;
