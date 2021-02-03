@@ -19,7 +19,7 @@ function compute(){
 //funciton to find the interest from the range and display
 
 function findInterest(){
-    interest = document.getElementById("rate").value;
+    interest = document.getElementById("rate").value + "%";
     document.getElementById("interestvalue").innerHTML= interest;
 }
 
